@@ -45,10 +45,10 @@ public class FilmesController {
 		return "redirect:/CadastroFilmes";
 	}
 	
-	/*@PostMapping(value = "/ListarFilmes")
+	@PostMapping(value = "/ListarFilmes")
 	public String listarFilmes2() {
 	    List<Filmes> filmes = new ArrayList<>();
 	    fr.findAll().forEach(filmes::add);
 		return "redirect:/CadastroFilmes";
-	}*/
+	}
 }
